@@ -1,508 +1,502 @@
 {
   "state": {
-    "selectedChampId": "Ahri",
+    "selectedChampId": "vayne",
     "selectedChamp": {
-      "id": "Ahri",
-      "key": "103",
-      "name": "Ahri",
-      "title": "the Nine-Tailed Fox",
+      "id": "Vayne",
+      "key": "67",
+      "name": "Vayne",
+      "title": "the Night Hunter",
       "image": {
-        "full": "Ahri.png",
-        "sprite": "champion0.png",
+        "full": "Vayne.png",
+        "sprite": "champion4.png",
         "group": "champion",
-        "x": 48,
-        "y": 0,
+        "x": 192,
+        "y": 48,
         "w": 48,
         "h": 48
       },
       "skins": [
         {
-          "id": "103000",
+          "id": "67000",
           "num": 0,
           "name": "default",
           "chromas": false
         },
         {
-          "id": "103001",
+          "id": "67001",
           "num": 1,
-          "name": "Dynasty Ahri",
+          "name": "Vindicator Vayne",
           "chromas": false
         },
         {
-          "id": "103002",
+          "id": "67002",
           "num": 2,
-          "name": "Midnight Ahri",
+          "name": "Aristocrat Vayne",
           "chromas": false
         },
         {
-          "id": "103003",
+          "id": "67003",
           "num": 3,
-          "name": "Foxfire Ahri",
-          "chromas": false
+          "name": "Dragonslayer Vayne",
+          "chromas": true
         },
         {
-          "id": "103004",
+          "id": "67004",
           "num": 4,
-          "name": "Popstar Ahri",
-          "chromas": true
+          "name": "Heartseeker Vayne",
+          "chromas": false
         },
         {
-          "id": "103005",
+          "id": "67005",
           "num": 5,
-          "name": "Challenger Ahri",
-          "chromas": true
+          "name": "SKT T1 Vayne",
+          "chromas": false
         },
         {
-          "id": "103006",
+          "id": "67006",
           "num": 6,
-          "name": "Academy Ahri",
+          "name": "Arclight Vayne",
           "chromas": false
         },
         {
-          "id": "103007",
-          "num": 7,
-          "name": "Arcade Ahri",
+          "id": "67010",
+          "num": 10,
+          "name": "Soulstealer Vayne",
           "chromas": false
         },
         {
-          "id": "103014",
+          "id": "67011",
+          "num": 11,
+          "name": "PROJECT: Vayne",
+          "chromas": false
+        },
+        {
+          "id": "67012",
+          "num": 12,
+          "name": "Firecracker Vayne",
+          "chromas": false
+        },
+        {
+          "id": "67013",
+          "num": 13,
+          "name": "Firecracker Vayne Prestige Edition",
+          "chromas": false
+        },
+        {
+          "id": "67014",
           "num": 14,
-          "name": "Star Guardian Ahri",
-          "chromas": false
+          "name": "Spirit Blossom Vayne",
+          "chromas": true
         },
         {
-          "id": "103015",
+          "id": "67015",
           "num": 15,
-          "name": "K/DA Ahri",
-          "chromas": false
-        },
-        {
-          "id": "103016",
-          "num": 16,
-          "name": "K/DA Ahri Prestige Edition",
-          "chromas": false
-        },
-        {
-          "id": "103017",
-          "num": 17,
-          "name": "Elderwood Ahri",
+          "name": "FPX Vayne",
           "chromas": true
         },
         {
-          "id": "103027",
-          "num": 27,
-          "name": "Spirit Blossom Ahri",
-          "chromas": true
-        },
-        {
-          "id": "103028",
-          "num": 28,
-          "name": "K/DA ALL OUT Ahri",
-          "chromas": true
-        },
-        {
-          "id": "103042",
-          "num": 42,
-          "name": "Coven Ahri",
+          "id": "67025",
+          "num": 25,
+          "name": "Sentinel Vayne",
           "chromas": true
         }
       ],
-      "lore": "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature, Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes.",
-      "blurb": "Innately connected to the latent power of Runeterra, Ahri is a vastaya who can reshape magic into orbs of raw energy. She revels in toying with her prey by manipulating their emotions before devouring their life essence. Despite her predatory nature...",
+      "lore": "Shauna Vayne is a deadly, remorseless Demacian monster hunter, who has dedicated her life to finding and destroying the demon that murdered her family. Armed with a wrist-mounted crossbow and a heart full of vengeance, she is only truly happy when slaying practitioners or creations of the dark arts, striking from the shadows with a flurry of silver bolts.",
+      "blurb": "Shauna Vayne is a deadly, remorseless Demacian monster hunter, who has dedicated her life to finding and destroying the demon that murdered her family. Armed with a wrist-mounted crossbow and a heart full of vengeance, she is only truly happy when...",
       "allytips": [
-        "Use Charm to set up your combos, it will make landing Orb of Deception and Fox-Fire dramatically easier.",
-        "Initiate team fights using Charm, and chase down stragglers with Spirit Rush.",
-        "Spirit Rush enables Ahri's abilities, it opens up paths for Charm, helps double hitting with Orb of Deception, and closes to make use of Fox-Fire."
+        "Tumble has many uses, but it cannot pass over walls.",
+        "Condemn can be used to both pin targets to walls to ensure a kill, or to escape a pursuer.",
+        "Don't go in first to a large teamfight. Wait for your teammates to initiate."
       ],
       "enemytips": [
-        "Ahri's survivability is dramatically reduced when her Ultimate, Spirit Rush, is down.",
-        "Stay behind minions to make Charm difficult to land, this will reduce Ahri's damage potential significantly."
+        "Vayne is fragile - turn the pressure up on her and she will be forced to play cautiously.",
+        "Deny Vayne the opportunity to pin you against walls."
       ],
       "tags": [
-        "Mage",
+        "Marksman",
         "Assassin"
       ],
       "partype": "Mana",
       "info": {
-        "attack": 3,
-        "defense": 4,
-        "magic": 8,
-        "difficulty": 5
+        "attack": 10,
+        "defense": 1,
+        "magic": 1,
+        "difficulty": 8
       },
       "stats": {
-        "hp": 526,
-        "hpperlevel": 92,
-        "mp": 418,
-        "mpperlevel": 25,
+        "hp": 515,
+        "hpperlevel": 89,
+        "mp": 231.8,
+        "mpperlevel": 35,
         "movespeed": 330,
-        "armor": 21,
-        "armorperlevel": 3.5,
+        "armor": 23,
+        "armorperlevel": 3.4,
         "spellblock": 30,
         "spellblockperlevel": 0.5,
         "attackrange": 550,
-        "hpregen": 5.5,
-        "hpregenperlevel": 0.6,
-        "mpregen": 8,
-        "mpregenperlevel": 0.8,
+        "hpregen": 3.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 6.97,
+        "mpregenperlevel": 0.4,
         "crit": 0,
         "critperlevel": 0,
-        "attackdamage": 53,
-        "attackdamageperlevel": 3,
-        "attackspeedperlevel": 2,
-        "attackspeed": 0.668
+        "attackdamage": 60,
+        "attackdamageperlevel": 2.36,
+        "attackspeedperlevel": 3.3,
+        "attackspeed": 0.658
       },
       "spells": [
         {
-          "id": "AhriOrbofDeception",
-          "name": "Orb of Deception",
-          "description": "Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back. ",
-          "tooltip": "Ahri throws then pulls back her orb, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> on the way out and <trueDamage>{{ totaldamage }} true damage</trueDamage> on the way back.",
+          "id": "VayneTumble",
+          "name": "Tumble",
+          "description": "Vayne tumbles, maneuvering to carefully place her next shot. Her next attack deals bonus damage.",
+          "tooltip": "Vayne rolls a short distance, and deals an additional <physicalDamage>{{ adratiobonus }} physical damage</physicalDamage> on her next Attack.<br /><br /><rules>This Ability triggers spell effects upon dealing damage.</rules>",
           "leveltip": {
             "label": [
-              "@AbilityResourceName@ Cost",
+              "Cooldown",
+              "AD Ratio %"
+            ],
+            "effect": [
+              "{{ cooldown }} -> {{ cooldownNL }}",
+              "{{ totaladratio*100.000000 }}% -> {{ totaladrationl*100.000000 }}%"
+            ]
+          },
+          "maxrank": 5,
+          "cooldown": [
+            4,
+            3.5,
+            3,
+            2.5,
+            2
+          ],
+          "cooldownBurn": "4/3.5/3/2.5/2",
+          "cost": [
+            30,
+            30,
+            30,
+            30,
+            30
+          ],
+          "costBurn": "30",
+          "datavalues": {},
+          "effect": [
+            null,
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "effectBurn": [
+            null,
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "vars": [],
+          "costType": " {{ abilityresourcename }}",
+          "maxammo": "-1",
+          "range": [
+            300,
+            300,
+            300,
+            300,
+            300
+          ],
+          "rangeBurn": "300",
+          "image": {
+            "full": "VayneTumble.png",
+            "sprite": "spell13.png",
+            "group": "spell",
+            "x": 96,
+            "y": 144,
+            "w": 48,
+            "h": 48
+          },
+          "resource": "{{ cost }} {{ abilityresourcename }}"
+        },
+        {
+          "id": "VayneSilveredBolts",
+          "name": "Silver Bolts",
+          "description": "Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's max health as bonus true damage.",
+          "tooltip": "<spellPassive>Passive</spellPassive>: Every third consecutive Attack or Ability against an enemy deals an additional <trueDamage>{{ maxhealthratio*100 }}% max Health true damage</trueDamage>.",
+          "leveltip": {
+            "label": [
+              "True Damage %",
+              "Minimum Damage"
+            ],
+            "effect": [
+              "{{ maxhealthratio*100.000000 }}% -> {{ maxhealthrationl*100.000000 }}%",
+              "{{ damagefloor }} -> {{ damagefloorNL }}"
+            ]
+          },
+          "maxrank": 5,
+          "cooldown": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "cooldownBurn": "0",
+          "cost": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "costBurn": "0",
+          "datavalues": {},
+          "effect": [
+            null,
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "effectBurn": [
+            null,
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "vars": [],
+          "costType": "Passive",
+          "maxammo": "-1",
+          "range": [
+            750,
+            750,
+            750,
+            750,
+            750
+          ],
+          "rangeBurn": "750",
+          "image": {
+            "full": "VayneSilveredBolts.png",
+            "sprite": "spell13.png",
+            "group": "spell",
+            "x": 144,
+            "y": 144,
+            "w": 48,
+            "h": 48
+          },
+          "resource": "Passive"
+        },
+        {
+          "id": "VayneCondemn",
+          "name": "Condemn",
+          "description": "Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, knocking them back and dealing damage. If they collide with terrain, they are impaled, dealing bonus damage and stunning them.",
+          "tooltip": "Vayne fires a bolt that <status>Knocks Back</status> and deals <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>. If the target collides with terrain, they take <physicalDamage>{{ empowereddamagett }} bonus physical damage</physicalDamage> and become <status>Stunned</status> for {{ stunduration }} seconds. ",
+          "leveltip": {
+            "label": [
+              "Cooldown",
               "Damage"
             ],
             "effect": [
-              "{{ cost }} -> {{ costNL }}",
-              "{{ e1 }} -> {{ e1NL }}"
+              "{{ cooldown }} -> {{ cooldownNL }}",
+              "{{ damage }} -> {{ damageNL }}"
             ]
           },
           "maxrank": 5,
           "cooldown": [
-            7,
-            7,
-            7,
-            7,
-            7
-          ],
-          "cooldownBurn": "7",
-          "cost": [
-            65,
-            70,
-            75,
-            80,
-            85
-          ],
-          "costBurn": "65/70/75/80/85",
-          "datavalues": {},
-          "effect": [
-            null,
-            [
-              40,
-              65,
-              90,
-              115,
-              140
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ]
-          ],
-          "effectBurn": [
-            null,
-            "40/65/90/115/140",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0",
-            "0"
-          ],
-          "vars": [],
-          "costType": " {{ abilityresourcename }}",
-          "maxammo": "-1",
-          "range": [
-            970,
-            970,
-            970,
-            970,
-            970
-          ],
-          "rangeBurn": "970",
-          "image": {
-            "full": "AhriOrbofDeception.png",
-            "sprite": "spell0.png",
-            "group": "spell",
-            "x": 0,
-            "y": 96,
-            "w": 48,
-            "h": 48
-          },
-          "resource": "{{ cost }} {{ abilityresourcename }}"
-        },
-        {
-          "id": "AhriFoxFire",
-          "name": "Fox-Fire",
-          "description": "Ahri gains a brief burst of movement speed and releases three fox-fires, that lock onto and attack nearby enemies.",
-          "tooltip": "Ahri releases 3 fox-fires that seek nearby enemies and deal <magicDamage>{{ singlefiredamage }} magic damage</magicDamage>, reduced to <magicDamage>{{ multifiredamage }} damage</magicDamage> beyond the first. She also gains <speed>{{ movementspeed*100 }}% Move Speed</speed> decaying over {{ movementspeedduration }} seconds.",
-          "leveltip": {
-            "label": [
-              "Damage",
-              "Cooldown"
-            ],
-            "effect": [
-              "{{ e1 }} -> {{ e1NL }}",
-              "{{ cooldown }} -> {{ cooldownNL }}"
-            ]
-          },
-          "maxrank": 5,
-          "cooldown": [
-            9,
-            8,
-            7,
-            6,
-            5
-          ],
-          "cooldownBurn": "9/8/7/6/5",
-          "cost": [
-            40,
-            40,
-            40,
-            40,
-            40
-          ],
-          "costBurn": "40",
-          "datavalues": {},
-          "effect": [
-            null,
-            [
-              40,
-              65,
-              90,
-              115,
-              140
-            ],
-            [
-              0.3,
-              0.3,
-              0.3,
-              0.3,
-              0.3
-            ],
-            [
-              0.25,
-              0.25,
-              0.25,
-              0.25,
-              0.25
-            ],
-            [
-              150,
-              150,
-              150,
-              150,
-              150
-            ],
-            [
-              550,
-              550,
-              550,
-              550,
-              550
-            ],
-            [
-              5,
-              5,
-              5,
-              5,
-              5
-            ],
-            [
-              0.4,
-              0.4,
-              0.4,
-              0.4,
-              0.4
-            ],
-            [
-              725,
-              725,
-              725,
-              725,
-              725
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ],
-            [
-              0,
-              0,
-              0,
-              0,
-              0
-            ]
-          ],
-          "effectBurn": [
-            null,
-            "40/65/90/115/140",
-            "0.3",
-            "0.25",
-            "150",
-            "550",
-            "5",
-            "0.4",
-            "725",
-            "0",
-            "0"
-          ],
-          "vars": [],
-          "costType": " {{ abilityresourcename }}",
-          "maxammo": "-1",
-          "range": [
-            700,
-            700,
-            700,
-            700,
-            700
-          ],
-          "rangeBurn": "700",
-          "image": {
-            "full": "AhriFoxFire.png",
-            "sprite": "spell0.png",
-            "group": "spell",
-            "x": 48,
-            "y": 96,
-            "w": 48,
-            "h": 48
-          },
-          "resource": "{{ cost }} {{ abilityresourcename }}"
-        },
-        {
-          "id": "AhriSeduce",
-          "name": "Charm",
-          "description": "Ahri blows a kiss that damages and charms an enemy it encounters, instantly stopping movement abilities and causing them to walk harmlessly towards her. The target temporarily takes increased damage from Ahri.",
-          "tooltip": "Ahri blows a kiss that <status>Charms</status> the first enemy hit for {{ e2 }} second(s) and deals <magicDamage>{{ totaldamage }} magic damage</magicDamage>. The victim also takes {{ e4 }}% more damage from Ahri's Abilities for {{ e5 }} seconds.",
-          "leveltip": {
-            "label": [
-              "Damage",
-              "Duration"
-            ],
-            "effect": [
-              "{{ e1 }} -> {{ e1NL }}",
-              "{{ e2 }} -> {{ e2NL }}"
-            ]
-          },
-          "maxrank": 5,
-          "cooldown": [
-            12,
-            12,
-            12,
-            12,
+            20,
+            18,
+            16,
+            14,
             12
           ],
-          "cooldownBurn": "12",
+          "cooldownBurn": "20/18/16/14/12",
           "cost": [
-            70,
-            70,
-            70,
-            70,
-            70
+            90,
+            90,
+            90,
+            90,
+            90
           ],
-          "costBurn": "70",
+          "costBurn": "90",
           "datavalues": {},
           "effect": [
             null,
             [
-              60,
-              90,
-              120,
-              150,
-              180
+              0,
+              0,
+              0,
+              0,
+              0
             ],
             [
-              1.4,
-              1.55,
-              1.7,
-              1.85,
-              2
+              0,
+              0,
+              0,
+              0,
+              0
             ],
             [
-              -0.65,
-              -0.65,
-              -0.65,
-              -0.65,
-              -0.65
+              0,
+              0,
+              0,
+              0,
+              0
             ],
             [
-              20,
-              20,
-              20,
-              20,
-              20
+              0,
+              0,
+              0,
+              0,
+              0
             ],
             [
-              3,
-              3,
-              3,
-              3,
-              3
+              0,
+              0,
+              0,
+              0,
+              0
             ],
             [
               0,
@@ -542,11 +536,11 @@
           ],
           "effectBurn": [
             null,
-            "60/90/120/150/180",
-            "1.4/1.55/1.7/1.85/2",
-            "-0.65",
-            "20",
-            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
             "0",
             "0",
             "0",
@@ -557,52 +551,56 @@
           "costType": " {{ abilityresourcename }}",
           "maxammo": "-1",
           "range": [
-            975,
-            975,
-            975,
-            975,
-            975
+            550,
+            550,
+            550,
+            550,
+            550
           ],
-          "rangeBurn": "975",
+          "rangeBurn": "550",
           "image": {
-            "full": "AhriSeduce.png",
-            "sprite": "spell0.png",
+            "full": "VayneCondemn.png",
+            "sprite": "spell13.png",
             "group": "spell",
-            "x": 96,
-            "y": 96,
+            "x": 192,
+            "y": 144,
             "w": 48,
             "h": 48
           },
           "resource": "{{ cost }} {{ abilityresourcename }}"
         },
         {
-          "id": "AhriTumble",
-          "name": "Spirit Rush",
-          "description": "Ahri dashes forward and fires essence bolts, damaging nearby enemies. Spirit Rush can be cast up to three times before going on cooldown.",
-          "tooltip": "Ahri nimbly dashes, firing {{ rmaxtargetspercast }} essence bolts at nearby enemies, prioritizing champions. These bolts deal <magicDamage>{{ rcalculateddamage }} magic damage</magicDamage> each. This Ability can be <recast>Recast</recast> up to twice within {{ rrecastwindow }} seconds before going on cooldown.",
+          "id": "VayneInquisition",
+          "name": "Final Hour",
+          "description": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonus Movement Speed from Night Hunter",
+          "tooltip": "Vayne gains <physicalDamage>{{ bonusattackdamage }} Attack Damage</physicalDamage> for {{ baseduration }} seconds, extended by {{ durationtoadd }} seconds whenever a champion damaged by Vayne dies within {{ damagedmarkerduration }} seconds. Additionally, during the duration:<li><spellName>Night Hunter</spellName> instead grants <speed>{{ movementspeed }} Move Speed</speed>.<li>The Cooldown of <spellName>Tumble</spellName> is reduced by {{ tumblecdreduction }}%, and grants <keywordStealth>Invisibility</keywordStealth> for {{ tumblestealthduration }} second.",
           "leveltip": {
             "label": [
-              "Damage",
-              "Cooldown"
+              "Cooldown",
+              "Duration",
+              "Bonus AD",
+              "Tumble Cooldown Reduction"
             ],
             "effect": [
-              "{{ rbasedamage }} -> {{ rbasedamageNL }}",
-              "{{ cooldown }} -> {{ cooldownNL }}"
+              "{{ cooldown }} -> {{ cooldownNL }}",
+              "{{ baseduration }} -> {{ basedurationNL }}",
+              "{{ bonusattackdamage }} -> {{ bonusattackdamageNL }}",
+              "{{ tumblecdreduction }}% -> {{ tumblecdreductionNL }}%"
             ]
           },
           "maxrank": 3,
           "cooldown": [
-            130,
-            105,
+            100,
+            85,
+            70
+          ],
+          "cooldownBurn": "100/85/70",
+          "cost": [
+            80,
+            80,
             80
           ],
-          "cooldownBurn": "130/105/80",
-          "cost": [
-            100,
-            100,
-            100
-          ],
-          "costBurn": "100",
+          "costBurn": "80",
           "datavalues": {},
           "effect": [
             null,
@@ -642,9 +640,9 @@
               0
             ],
             [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ],
             [
               0,
@@ -666,7 +664,7 @@
             "0",
             "0",
             "0",
-            "1",
+            "0",
             "0",
             "0"
           ],
@@ -674,17 +672,17 @@
           "costType": " {{ abilityresourcename }}",
           "maxammo": "-1",
           "range": [
-            450,
-            450,
-            450
+            1,
+            1,
+            1
           ],
-          "rangeBurn": "450",
+          "rangeBurn": "1",
           "image": {
-            "full": "AhriTumble.png",
-            "sprite": "spell0.png",
+            "full": "VayneInquisition.png",
+            "sprite": "spell13.png",
             "group": "spell",
-            "x": 144,
-            "y": 96,
+            "x": 240,
+            "y": 144,
             "w": 48,
             "h": 48
           },
@@ -692,21 +690,21 @@
         }
       ],
       "passive": {
-        "name": "Essence Theft",
-        "description": "When Ahri strikes 9 enemies with her abilities, her next ability also heals her for each enemy hit.",
+        "name": "Night Hunter",
+        "description": "Vayne ruthlessly hunts evil-doers, gaining <speed>30 Move Speed</speed> when moving toward nearby enemy champions.",
         "image": {
-          "full": "Ahri_SoulEater2.png",
-          "sprite": "passive0.png",
+          "full": "Vayne_NightHunter.png",
+          "sprite": "passive4.png",
           "group": "passive",
-          "x": 48,
-          "y": 0,
+          "x": 192,
+          "y": 48,
           "w": 48,
           "h": 48
         }
       },
       "recommended": []
     },
-    "usingSearch": false
+    "usingSearch": true
   },
   "data": [
     {
