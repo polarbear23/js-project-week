@@ -1,5 +1,3 @@
-
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +19,7 @@ body > main {
 }
 
 .icons-container{
-    margin: 0px;
+    padding-top: 100px;
     list-style-type: none;
     display: grid;
     height: 100vh;
@@ -70,7 +68,7 @@ body > main {
 }
 
 .splash-container{
-  background-image: url("/images/champion/splash/Aatrox_0.jpg");
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: hidden;
@@ -102,7 +100,7 @@ body > main {
 
 .champ-name{
   letter-spacing: 6px;
-  margin-top: 150px;;
+  margin-top: 80px;;
   grid-area: name;
   font-size: 6rem;
   margin-left: 6%;
@@ -157,6 +155,7 @@ body > main {
     
 
   }
+
 .icons-container::-webkit-scrollbar {
     width: 6px;
 }
@@ -189,6 +188,8 @@ body > main {
 
 .search-icon{
   height: 100px;
+  width: 100px;
+  position: fixed;
   display: grid;
   place-items: center;
   border: 1px goldenrod solid;
@@ -198,6 +199,7 @@ body > main {
 
 .search-icon-image{
   height: 60px;
+  width: 60px;
   filter: invert(100%);
   
 }
@@ -221,8 +223,197 @@ body > main {
   border-radius: 10px;
   font-size: 2.5rem;
   border: 1px goldenrod solid;
+  padding: 2px 23px 2px 30px;
 }
 
 .slideright {
   transform: translateX(0);
+}
+
+
+@media (max-width: 2125px) { 
+
+  .champ-info{
+    grid-template: 
+    "search"0.1fr
+    "name"0.1fr
+    "title"0.1fr
+    "body"1fr
+    "arrow"0.6fr/
+    1fr;
+  }
+  .champ-name{
+    font-size: 3rem;
+  }
+  .champ-title{
+    letter-spacing: 6px;
+    font-size: 2rem;
+  }
+
+  .champ-blurb{
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  .splash-container{
+    background-size: cover;
+
+  }
+
+
+ }
+
+
+ @media (max-width: 1600px) { 
+
+  .champ-info{
+    grid-template: 
+    "search"0.1fr
+    "."30px
+    "name"0.1fr
+    "title"0.1fr
+    "body"1fr
+    "arrow"0.6fr/
+    1fr;
+  }
+  .champ-name{
+    font-size: 2rem;
+  }
+  .champ-title{
+    letter-spacing: 6px;
+    font-size: 2rem;
+  }
+
+  .champ-blurb{
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+  }
+
+  .splash-container{
+    background-size: cover;
+
+  }
+
+
+
+  
+ }
+
+
+ @media (max-width: 1200px) { 
+
+  .champ-info{
+    grid-template: 
+    "search"0.1fr
+    "."30px
+    "name"0.1fr
+    "title"0.1fr
+    "body"1fr
+    "arrow"0.6fr/
+    1fr;
+  }
+  .champ-name{
+    font-size: 2rem;
+  }
+  .champ-title{
+    letter-spacing: 6px;
+    font-size: 2rem;
+  }
+
+  .champ-blurb{
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+  }
+
+  .splash-container{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    animation: fadeIn 1s ;
+    display: grid;
+    grid-template: 
+    "champInfo champInfo splash" 1fr
+    "champInfo champInfo splash"1fr
+    "champInfo champInfo splash"1fr/
+    1fr 1fr 1fr
+    ;
+  }
+ }
+
+ @media (max-width: 800px) {
+  .splash-container{
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    animation: fadeIn 1s ;
+    display: grid;
+    grid-template: 
+    "champInfo champInfo champInfo" 1fr
+    "champInfo champInfo champInfo"1fr
+    "champInfo champInfo champInfo"1fr/
+    1fr 1fr 1fr
+    ;
+  }
+ }
+
+ @media (max-width: 400px) {
+  .champ-info{
+    grid-template: 
+    "search"100px
+    "name"0.1fr
+    "title"0.1fr
+    "body"1fr
+    "arrow"0.6fr/
+    1fr;
+  }
+
+  .champ-name{
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  .champ-title{
+    font-size: 1.4rem;
+
+  }
+  .champ-blurb{
+    font-size: 1.2rem;
+  }
+  .champ-more-info-arrow{
+    height: 100px;
+  }
+  body{
+    grid-template-columns: 50px 1fr;
+  }
+  .icons-container{
+    margin: 0px;
+    list-style-type: none;
+    display: grid;
+    height: 100vh;
+    scrollbar-base-color: brown;
+    scroll-behavior: smooth;
+    scrollbar-color: blue;
+    overflow-x: hidden;
+    grid-template-columns: repeat(auto-fit, 45px);
+    overflow-y: auto;
+}
+  .search-icon{
+    height: 45px;
+  }
+  .search-icon-image{
+    height: 60px;
+  }
+
+  .search-container > input {
+    height: 30px;
+    width: 95%;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 1px goldenrod solid;
+    padding: 2px 23px 2px 30px;
+  }
+  .champ-more-info-arrow{
+    height: 70px;
+  }
 }
