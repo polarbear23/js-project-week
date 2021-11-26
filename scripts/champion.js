@@ -21,6 +21,7 @@ async function setInitialState(){
     renderAbilityIcons();
     clickAbilityEventListener();
     renderAbilitySection();
+    renderSkinsSplashIcon()
 }
 
 function capitaliseFirstLetter(string) {
@@ -129,6 +130,36 @@ function renderAbilitySection(){
     abilityVideo.src = `https://d28xe8vt774jo5.cloudfront.net/champion-abilities/${key}/ability_${key}_${state.abilitySrcCode}.webm`;
     abilityVideo.play();
     console.log(abilityVideo.src);
+}
+
+function renderSkinsSplashIcon(){
+    const buttonsContainer = document.querySelector(".splash-icons");
+    buttonsContainer.innerHTML = "";
+    for(let i = 0; i < state.selectedChamp.skins.length; i++){
+        const buttonImage = document.createElement("img");
+        buttonImage.classList.add("splash-button");
+        if(i === 0){
+            buttonImage.classList.add("active-splash");
+        }
+        buttonImage.id = i;
+        buttonImage.src = `/images/champion/tiles/${state.selectedChamp.id}_${state.selectedChamp.skins[i].num}.jpg`;
+        buttonImage.addEventListener("click", (e) => {
+            const oldActiveSplash = document.querySelector(".active-splash");
+            oldActiveSplash.classList.remove("active-splash");
+            e.target.classList.add("active-splash");
+            updateSplash();
+        })
+        buttonsContainer.appendChild(buttonImage);
+    }
+    updateSplash();
+}
+
+function updateSplash(){
+    const activeSkinEl = document.querySelector(".active-splash");
+    const splashEl = document.querySelector(".splash");
+    splashEl.src = `/images/champion/splash/${state.selectedChamp.id}_${state.selectedChamp.skins[activeSkinEl.id].num}.jpg`
+    const leftChampSection = document.querySelector(".left-champ-section");
+    leftChampSection.style.backgroundImage = `url(/images/champion/centered/${state.selectedChamp.id}_${state.selectedChamp.skins[activeSkinEl.id].num}.jpg)`;
 }
 
 setInitialState();
