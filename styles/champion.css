@@ -65,7 +65,7 @@ body{
     grid-template-rows: 0.5fr 0.5fr;
   }
 
-  .title, .abilities-title{
+  .title, .abilities-title, .skins-splash-title {
       font-size: 3rem;
       color: white;
       margin-bottom: 2.5%;
@@ -149,7 +149,7 @@ body{
     width: 700px;
 }
 
-.text-ability-icon-container{
+.text-ability-icon-container{ 
     padding: 10px;
     border-left: 1px goldenrod solid;
     border-radius: 20px 0px 0px 0px;
@@ -169,9 +169,35 @@ body{
 
 
 .right-champ-section{
+    padding: 40px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin-bottom: 5%;
     display: grid;
     grid-template-rows: 0.1fr 0.9fr;
+}
+
+.splash-header{
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.splash-icons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 60px);
+    gap: 30px;
+}
+
+.splash-container{
+    display: grid;
+    padding: 30px;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 40px;
+}
+
+.splash-button{
+    border-radius: 50px;
+    height: 60px;
 }

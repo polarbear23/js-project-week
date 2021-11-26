@@ -88,7 +88,7 @@ function getAbility(id){
     }
     return state.selectedChamp.passive;
 }
-
+ 
 function checkAbilityAndUpdateSrc(abilityTextSelected){
     switch(abilityTextSelected) {
         case "P":
@@ -113,13 +113,18 @@ function renderAbilitySection(){
     const abilityDesc = document.querySelector(".ability-text");
     const abilityVideo = document.querySelector(".ability-video");
     const champ = state.selectedChamp;
-    const key = champ.key;
+    let key = champ.key;
     abilityDesc.innerText = state.selectedAbility.description;
+    if(key.length === 3){   
+        key = `0${key}`;
+        console.log(key);
+    }
     if(key.length === 2){   
-        key = `0${key}`
+        key = `00${key}`;
+        console.log(key);
     }
     else if(key.length === 1){   
-        key = `00${key}`
+        key = `000${key}`;
     }
     abilityVideo.src = `https://d28xe8vt774jo5.cloudfront.net/champion-abilities/${key}/ability_${key}_${state.abilitySrcCode}.webm`;
     abilityVideo.play();
